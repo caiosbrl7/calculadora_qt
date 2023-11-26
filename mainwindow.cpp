@@ -178,19 +178,19 @@ void MainWindow::on_igualdade_clicked()
     operacao = false;
     switch(op){
     case 1:
-        resultado = numero1.toInt() + numero2.toInt();
+        resultado = numero1.toDouble() + numero2.toDouble();
         ui->tela->display(resultado);
         break;
     case 2:
-        resultado = numero1.toInt() - numero2.toInt();
+        resultado = numero1.toDouble() - numero2.toDouble();
         ui->tela->display(resultado);
         break;
     case 3:
-        resultado = numero1.toInt() * numero2.toInt();
+        resultado = numero1.toDouble() * numero2.toDouble();
         ui->tela->display(resultado);
         break;
     case 4:
-        resultado = numero1.toInt() / numero2.toInt();
+        resultado = numero1.toDouble() / numero2.toDouble();
         ui->tela->display(resultado);
         break;
     }

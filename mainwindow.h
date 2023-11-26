@@ -54,6 +54,6 @@ private:
     QString numero1;
     QString numero2;
     int op;
-    int resultado;
+    double resultado;
 };
 #endif // MAINWINDOW_H
